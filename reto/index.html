@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Productor de Leche</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="all_container">
+		<header>
+			<img class="vaca" src="vaca.png" alt="vaca">
+		</header>
+		<main>
+			<div class="contenedor">
+				<h2 id="nuevoForm">Calculo Producción Leche</h2>
+				<div>
+					<input id="q_litre" type="text" placeholder="Cantidad de litros" required><br>
+					<input id="p_galon" type="text" placeholder="Precio por Galón"  required><br>
+					<div>
+						<button onclick="calcular_ganancia()">Calcular</button>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="myscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid orange; */
+}
+
+.all_container {
+  background: linear-gradient(rgba(10, 10, 160, 0.804), rgb(173, 183, 211));
+  height: 100vh;
+}
+
+.vaca {
+  width: 150px;
+  animation-name: animacion_vaca;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes animacion_vaca {
+  0% {
+    /*inicio*/
+    transform: translate(0, 0) rotate(0deg);
+  } /*va a la derecha*/
+  100% {
+    scale: 10%;
+    transform: translate(100vw, 0) rotate(90deg);
+  }
+}
+
+.contenedor {
+  width: 300px;
+  height: 220px;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  border: 1px solid seashell;
+}
+
+#nuevoForm {
+  color: yellowgreen;
+}
+
+button {
+    height: 1cm;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:green;
+    color: white;
+}
+
+input {
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 125px;
+  padding: 0.5rem;
+}
+
