@@ -18,20 +18,25 @@
 
 // let array = ["jose","maria","jesus"];
 
-let asrray = [
-    {
-        name:"jose",
-        age: 12
-    },
-    {
-        name:"maria",
-        age: 23
-    },
-    {
-        name: "jesus",
-        age: 23
-    }
-];
+// let asrray = [
+//     {
+//         name:"jose",
+//         age: 12
+//     },
+//     {
+//         name:"maria",
+//         age: 23
+//     },
+//     {
+//         name: "jesus",
+//         age: 23
+//     }
+// ];
 
 
-console.log(asrray)
+// console.log(asrray)
+
+let mydoc = document.querySelector("button")
+.onclick = function(){
+    alert('hola tercera manera')
+}
